@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.btns{
+    margin-top: 20px;
+}
+
+#label{
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    position: relative;
+}
+
+#canvas{
+    position: absolute;
+}
+
+#cover_box{
+    position: absolute;
+    z-index: 9999;
+    display: none;
+}
+
+#preview{
+    display: flex;
+    justify-content: center;/*用margin产生距离，即使#preview变宽，也不影响样式*/
+}
+
+#show_edit{
+    margin: 0 10px;
+}
+
+#show_pic{
+    height: 100px;
+    width: 100px;
+    border: 2px solid #000;
+    overflow: hidden;
+    margin: 0 10px;
+}
